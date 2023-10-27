@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+}
+body{
+    background:#222;
+}
+.card{
+    width: 70%;
+    max-width: 470 px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color: #fff;
+    text-align: center;
+    border-radius: 40px;
+    padding: 40px 35px;
+    margin: 100px auto 50px;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.search input{
+    width: 90%;
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    height: 60px;
+    font-size: 25px;
+    padding: 10px 25px;
+    flex: 1;
+    margin-right: 16px;
+    border-radius: 30px;
+    font-weight: 50px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button img{
+    width: 30px;
+}
+.w-icon{
+    width: 30%;
+    margin-top: 30px;
+}
+.temp{
+    font-size: 40px;
+    margin-left: 0%;
+    /* font-weight: 500; */
+}
+.city{
+    font-size: 40px;
+    margin-top: 15px;
+    margin-left: 0%;
+    font-weight: 100;
+}
+@media (max-width:720px) {
+    .details{
+        flex-direction: column;
+    }
+    .col:last-child{
+        margin-top: 30px;
+    }
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0px;
+    margin-top: 30px;
+    /* max-width: 40%; */
+}
+/* .col{
+    display: flex;
+    text-align: left;
+    align-items: center;
+} */
+.col1{
+    display: flex;
+}
+.col2{
+    display: flex;
+    margin-left: 30px;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px ;
+ }
+.col2{
+    display: flex;
+    flex-direction: row;
+    /* text-align: left;
+    align-items: center; */
+}
+
+.humidity,.wind{
+    font-size: 30px;
+    margin-top: 6px;
+}
+
+.windy,.photos{
+    /* height: 30px; */
+    width: 30px;
+}
+.windy{
+    height: 70px;
+}
+/* .weather{
+    display: none ;
+} */
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 25px;
+    margin-top: 15 px;
+    display: none;
+    color: black;
+}
+/* @media screen and (max-width:455px) {
+    .windy{
+        margin-left: 20%;
+    }
+} */
+/* 
+.pol{
+    display: flex;
+    text-align: center;
+    align-items: left;
+    margin-left:50px ;
+}
+.pol img{
+    width: 65%;
+    margin-right: 10px ;
+    margin-left: 50px;
+}
+.humi,.humidity{
+    margin-right: 30px;
+}
+.wind,.wp,.humi,.humidity{
+    font-size: 30px;
+} */ 
+
+
